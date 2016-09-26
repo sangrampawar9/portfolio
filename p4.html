@@ -1,0 +1,254 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <!-- Mobile Specific Metas
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Page title
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	  <title>Sangram Pawar Portfolio</title>
+
+    
+
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="assets/css/bootstrap.css">
+      <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <!-- Icons
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="assets/icons/Linea/styles.css" />
+    <link rel="stylesheet" href="assets/icons/Elegant/style.css" />
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/p1styles.css">
+    <script src="assets/js/modernizr.js"></script>
+
+  </head>
+
+<!-- Body Start
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<body>
+
+
+<!-- Header Bar
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <header id="headerBar" class="headerTop">
+
+        <div class="container-fluid">
+
+          <!--Header logo on the left side-->
+
+          
+          <!--Header right side with left-aligned menu-->
+
+          <div class="col-md-8 col-sm-11 col-xs-8 headerRight">
+            <div class="header-right">
+
+              <!--Navigation-->
+              <nav class="navigation">
+
+                <div class="navbar-header">
+                  <span class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <i class="fa fa-bars"></i>
+                  </span>
+                </div>
+
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+                    <ul class="navbar navbar-right">
+                      <li><a href="#sectionIntro" class="easing">Home</a></li>
+                      <li><a href="#sectionAbout" class="easing">About</a></li>
+                        <li><a href="#sectionWorking" class="easing">Work</a></li>
+                      <li><a href="#Process" class="easing">Process</a></li>
+                      
+                      
+                    </ul>
+
+                </div>
+
+              </nav>
+              <!--END Navigation-->
+
+            </div>
+          </div>
+           <!--END Header right side-->
+
+
+        </div>
+        <!--END container-->
+      </header>
+      <!--END Header bar-->
+
+
+
+<!-- section Intro
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	
+      <section id="sectionIntro" class="parallax">
+        <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="container-fluid">
+
+            <div class="textIntro">
+              <div class="hi">
+              <h1>Wear-emin - A digital Theremin </h1>
+              
+              <a href="#sectionAbout" class="easing"></a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section> 
+
+
+
+<!-- section About
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+    <section id="sectionAbout">
+
+      <div class="container">
+        <div class="sectionTitle">
+          <h1>About</h1>
+
+        </div>
+
+        <div class="row">
+        <div class="col-md-6 col-sm-12 col-xs-12 story">
+          <p> Wear-emin, a compact, digital music synthesizer that is controlled through hand motions designed to replicate those normally used to operate a traditional Theremin as to best provide an experience similar to operating a classic Theremin as possible. The Wear-emin is paired with a web application that provides the user with an interface that helps users to learn how to use the device and become more proficient in using it by giving them visual feedback for their actions. We conducted a small, informal study to test the device with two users and see how using the web application affected the learning experience. We discuss the creation of the device and web application, along with our findings from the user study that we conducted and their implications.
+
+         </p> 
+
+         
+        </div>
+        <div class="col-md-6 col-sm-12 col-xs-12 story">
+            <h2> Wear-emin </h2>
+            
+            <span><img src="assets/images/wearemin.png" alt="Control" width="400" height="275"></span>
+
+         
+        </div>
+
+        
+        </div>
+
+       
+
+      </div>
+        
+
+        
+    </section>
+    
+   <section id="sectionWorking">
+   <div class="Working">
+  <h2> How Does it Work?</h2>
+        
+        
+     <p>   
+   To build the Wear-emin we used a Particle Photon, which is a prototyping microcontroller used in creating Internet of Things devices, as its core. The Photon is used to govern the device’s operations as well as connect to an associated web application that may access and display the Wear-emin’s output via WiFi. The Photon has attached to it an Inertia Measurement Unit (IMU) shield which works easily to process gesture based input and provides for further connection to the device’s proximity sensor and speaker. The integrated accelerometer inside the IMU returns metrics detailing the user’s movement, whose values are in turn mapped to controlling the pitch of the sound to be produced by the Wear-emin. The proximity sensor takes in infrared light to gauge the distance between the user's thumb and the sensor’s lenses. The sensor translates this input into a binary; if a user’s thumb is out of the sensor’s line of sight the Wear-emin will pause all further sound until the user moves their thumb back front of the sensor, allowing users to control the pace of the beat at which they play. The last major component is the piezoelectric speaker, a simple buzzer from which all of the sounds produced by the Wear-emin are emitted.
+
+
+       </p>
+       
+       </div> 
+       </section> 
+        
+    
+    <section id="Process">
+    
+        
+        <h1> Implementation </h1>
+        
+        <img src="assets/images/wearemin2.png" width="400" height="400" Schematic>
+        
+        <div id="Points">
+        
+        <ul>
+            
+            <h1> Process  </h1>
+        
+<li> The web application was designed to provide visual feedback to the user about the notes being played based on the input the application gets from the proximity sensor via the Photon.</li>
+
+<li>The Photon has a publish function which can be used to send data to the cloud. The web application then takes this data from the cloud to give its feedback to the user.
+
+<li> The web application contains an array of 8 blank rounded rectangles that represent each note in an octave. 
+
+<li> the user plays the Wear-emin, whichever note the user is currently playing will be colored in. Previously, the boxes were arranged in a 3x2 grid, however we changed this to a vertical line of boxes to better mirror the physical motion of moving up and down that navigating the scale necessitates. 
+
+<li> Alongside this, displayed the melody of “Happy Birthday” for the purpose of this study. The application displays the individual notes for the song which can be used as guidance as the user plays along.
+
+
+
+        </ul>
+            </div>
+    
+        <h2>Project Report </h2>
+        
+        
+    </section>
+        
+      
+    
+    
+    
+    
+    
+
+<!--  Javascripts
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+      <script src="assets/js/jquery-2.1.3.js"></script>
+      <script src="assets/js/bootstrap.js"></script>
+      <script src="assets/js/modernizr.custom.js"></script>
+      <script src="assets/js/contactform.js"></script>
+      <!-- Navigation menu-->
+      <script src="assets/js/classie.js"></script>
+      <script src="assets/js/menu-top.js"></script>
+      <script src="assets/js/nav-active.js"></script>
+      <script src="assets/js/jquery.easing.js"></script>
+      <!--JS for MAGNIFIC POPUP & ALL SCRIPTS& CALLS-->
+      <script src="assets/js/scripts.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>    
+      <!-- WOW ANIMATIONS -->
+      <script src="assets/js/wow.min.js"></script>
+      <script src="assets/js/jquery-parallax.js"></script>
+      <!-- Masonry Package -->
+      <script src="assets/js/isotope.pkgd.min.js"></script>
+      <script src="assets/js/isotope-jquery.js"></script>
+      <script>
+        new WOW().init();
+      </script>
+
+
+<script>
+$(window).load(function(){
+var $container = $('#masonry-grid');
+  $container.isotope({
+      itemSelector: '.grid-item'
+  });
+});
+</script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+  
+  //.parallax(xPosition, speedFactor, outerHeight) options:
+  //xPosition - Horizontal position of the element
+  //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+  //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+$('#sectionIntro').parallax({ "coeff":+0.5 });
+$('.imageIntro').parallax({ "coeff":+0.4 });
+})
+</script>
+
+
+
+
+  </body>
+</html>
