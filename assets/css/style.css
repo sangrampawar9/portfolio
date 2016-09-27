@@ -660,6 +660,14 @@ a:hover{
 
 /* ====GENERAL FORM STYLES==== */
 
+
+#sectionContact p{
+    
+    font-size: 25px;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
 #sectionContact{
 	margin-bottom: 0px;
 	padding: 100px 0px;
