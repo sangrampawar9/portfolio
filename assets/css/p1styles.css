@@ -127,3 +127,31 @@ body{
     
     font-weight: 600;
 }
+#Points p{
+    
+    text-align: left;
+}
+
+
+
+.heueval{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 500;
+    border: 2px solid black;
+    width: 5%;
+    color: white;
+}
+#sectionAbout p{
+    font-size: 15px;
+}
+
+.url{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 15%;
+}
