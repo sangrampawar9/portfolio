@@ -396,6 +396,32 @@ a:hover{
 	color:#222;	
 }
 
+#sectionResume .text-center{
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.white {
+  background: black;
+  border: 1px solid black;
+  border-bottom: 3px black;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    
+    
+}
+
+.button1:hover{
+    color: red;
+    
+}
+.button1 white{
+    margin-top: 10px;
+}
+
+
+
 /*--------------------------------------------------
 	05. section Portfolio
 ---------------------------------------------------*/
