@@ -65,26 +65,51 @@ h1{
 }
 
 
-.story img{
+.story1 img{
     
+    
+    margin-top: -80px;
     margin-left:125px;
     border: 2px solid black;
 }
 
-.story h2{
-    margin-left: 185px;
-
-margin-top: 30px;
+.story1 h2{
+    margin-left: 125px;
+    margin-top: 20px;
     font-weight: 200;
-    font-size: 15px;
+    font-size: 20px;
+}
+
+
+
+.story3 span p{
+    margin-left: 200px;
+    width: 50%;
+}
+
+
+
+
+
+#Report4 a{
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#Report4 a:hover{
+    color:  #ffd504;
+}
+
+#sectionAbout a:hover{
+    color:  #ffd504;
 }
 
 .skills h2{
     text-align: center;
     font-weight: 400;
-    
-    
-}
+    }
 
 .Working{
     
@@ -92,6 +117,27 @@ margin-top: 30px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 30px;
+}
+
+#sectionWorking h2{
+    margin-top: 70px;
+    
+}
+
+#sectionProcess h2{
+    margin-top: 70px;
+}
+
+
+#vcrep{
+    font-size: 20px;
+padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 90px;
+}
+
+#vcrep:hover{
+    color:  #ffd504;
 }
 
 .Working p {
@@ -112,11 +158,15 @@ body{
     margin-top: 20px;
 }
 
+#Process h1{
+    margin-top: 70px;
+}
+
 #Points{
     
     text-align: left;
     padding: inherit;
-    margin-top: 40px;
+    margin-top: 66px;
 }
 
 #Points li{
@@ -132,6 +182,24 @@ body{
     text-align: left;
 }
 
+#sectionProcess img{
+    margin-left: 300px;
+    
+    
+}
+
+#sectionProcess a{
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-top: 70px;
+    margin-left: 400px;
+    font-size: 20px;
+    
+}
+
+#sectionProcess a:hover{
+    color:  #ffd504;
+}
 
 
 .heueval{
@@ -146,12 +214,54 @@ body{
     font-size: 15px;
 }
 
-.url{
-    text-align: center;
+#sectionAbout4 img {
+    margin-left: 80px;
+    margin-top: 70px;
+    
+}
+
+#vc1{
+    
+     margin-left: 80px;
+    margin-top: 110px;
+    
+}
+#sectionAbout h1{
+    margin-top: 70px;
+}
+#sectionAbout4 h1{
+    margin-top: 70px;
+}
+
+#sectionAbout4{
+   margin-bottom: 90px;
+}
+
+#sectionWorking4 h1{
+    margin-top: 70px;
+}
+
+#sectionAbout h2{
+    margin-top: 90px;
+}
+
+#gombtn{
+    padding: 10px;
     font-size: 20px;
-    margin-top: 10px;
-    border: 2px solid black;
-    border-radius: 20px;
-    padding: 5px;
-    width: 15%;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+#gombtn:hover{
+    color: #ffd504;
+}
+
+.pp{
+    margin-top: 70px;
+}
+
+
+footer{
+    
+    border: 0.5px solid black;
+   
 }

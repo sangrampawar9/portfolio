@@ -17,6 +17,11 @@
 
 /*PAGE LOADER*/
 
+.glyphicon {
+   font-family:'Glyphicons Halflings' !important;
+  
+}
+
 html{
 	position: relative;
 	background-color: #fff;
@@ -250,6 +255,9 @@ a:hover{
 /*--------------------------------------------------
 	03. section About
 ---------------------------------------------------*/
+
+
+
 #sectionAbout{
 	background-color: #fff;
 	padding: 100px 0px;
@@ -257,10 +265,12 @@ a:hover{
 .story h2{
 	font-family: "Poppins", sans-serif;
 	font-size: 25px;
-	color:#111;
+	color:black;
 	font-weight: 700;
 	letter-spacing: 1px;
 	margin-bottom: 15px;
+    margin-left: 10px;
+    text-align: center;
 }
 .story p{
 	font-size: 16px;
@@ -283,6 +293,17 @@ a:hover{
 .skills span{
 	float: right;
 }
+.skills h2{
+    font-family: "Poppins", sans-serif;
+	font-size: 25px;
+	color:#111;
+	font-weight: 700;
+	letter-spacing: 1px;
+	margin-bottom: 25px;
+    margin-top: 0;
+    
+    }
+
 .about-iconbox h6 {
 	text-transform: uppercase;
 	font-size: 12px;
@@ -313,6 +334,25 @@ a:hover{
 	margin-top: 3px;
 }
 
+
+
+#sectionAbout .sectionTitle1 h1{
+	text-align: center;
+    font-family: "Poppins", sans-serif;
+	font-size: 40px;
+	color:#111;
+	font-weight:900;
+	letter-spacing:1px;
+	margin-bottom:25px;
+    margin-top: 40px;
+}
+
+
+#sectionAbout .story img{
+    position: relative;
+    margin-top: -220px;
+    margin-left: 70px;
+}
 
 /*--------------------------------------------------
 	04. section Resume
@@ -413,7 +453,7 @@ a:hover{
 }
 
 .button1:hover{
-    color: red;
+    color: #ffd504;
     
 }
 .button1 white{
@@ -687,6 +727,12 @@ a:hover{
 /* ====GENERAL FORM STYLES==== */
 
 
+.phoneicon{
+    margin-top: 0;
+    margin-bottom: 60px;
+}
+
+
 #sectionContact p{
     
     font-size: 25px;
@@ -775,6 +821,24 @@ input:-moz-placeholder, textarea:-moz-placeholder {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
+
+.glyphicon.glyphicon-envelope{
+    
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: black;
+}
+
+.glyphicon.glyphicon-earphone{
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    color: black;
+}
+
+
 /* ====MESSAGE FOR SUCCES==== */
 
 #message { 
@@ -838,7 +902,7 @@ ul.errorMessages li {
 }
 .fIcons {
 	text-align: right;
-	font-size: 20px;
+	font-size: 30px;
 	padding: 25px 0px;
 	padding-right: 30px;
 }
@@ -855,6 +919,10 @@ ul.errorMessages li {
 .fIcons a:hover, .fIcons a:focus{
 	text-decoration: none;
 }
+
+
+
+
 
 
 /*--------------------------------------------------
@@ -891,6 +959,7 @@ body{
 .skills{
 	padding-left: 0px;
 }
+    
 .title-icon h1 {
 	font-family: "Poppins", sans-serif;
 	color:#000;
@@ -1068,13 +1137,32 @@ body{
 	padding: 25px 15px;
 }
 
-  
+.img-responsive {
+    clear: both;
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    height: auto;
+}
+
+#sectionAbout4 img{
+        margin-left: 0px !important;
+    }
     
     
+    #vc1{
+       margin-left: 0px !important; 
+    }  
     
+    #vc2{
+        margin-left: 0px !important;
+    }
    
     
-    
+    #me{
+       margin-left: 0px !important;
+        margin-top: -80px!important;
+    }
     
     
 
