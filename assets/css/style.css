@@ -354,6 +354,12 @@ a:hover{
     margin-left: 70px;
 }
 
+
+#me{
+    
+}
+
+
 /*--------------------------------------------------
 	04. section Resume
 ---------------------------------------------------*/
@@ -1160,7 +1166,7 @@ body{
    
     
     #me{
-       margin-left: 0px !important;
+       margin-left: -25px !important;
         margin-top: -80px!important;
     }
     
