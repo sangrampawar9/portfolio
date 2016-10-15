@@ -348,15 +348,12 @@ a:hover{
 }
 
 
-#sectionAbout .story img{
-    position: relative;
-    margin-top: -220px;
-    margin-left: 70px;
-}
+
 
 
 #me{
-    
+    margin-top: 0px;
+    margin-left: 190px;
 }
 
 
@@ -1166,8 +1163,8 @@ body{
    
     
     #me{
-       margin-left: -25px !important;
-        margin-top: -80px!important;
+       margin-left: 0px !important;
+        margin-top: 10px!important;
     }
     
     
