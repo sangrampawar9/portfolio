@@ -43,10 +43,56 @@ h1{
     font-family: "Poppins", sans-serif;
     text-align: center;
     font-weight: 700;
+    margin-bottom: 30px;
 }
 
 p{
     font-family: "Poppins", sans-serif;
+    text-align: left;
+}
+
+
+
+
+
+
+.row.vertical-divider {
+  overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+  text-align: center;
+  padding-bottom: 100px;
+    padding: 30px;
+  margin-bottom: ;
+  
+  border-right: 3px solid #111;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+  border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+  border-right: none;
+}
+
+
+.col-centered{
+float: none;
+margin: 0 auto;
+}
+
+
+#sectionWorking4 h3{
+    width: 80%;
+}
+#sectionWorking4 h2{
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+#googleimg{
+    padding: 20px;
+    border: 1px solid black;
+    margin-bottom: 30px;
 }
 
 #left{
@@ -158,7 +204,7 @@ body{
 
 #Process{
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 #Process h1{
