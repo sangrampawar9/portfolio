@@ -735,6 +735,7 @@ div[class*="filter-"] ul li {
 .tc-works .pfolio-item:hover img {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
+    
 }
 .tc-works .pfolio-item .caption {
     
