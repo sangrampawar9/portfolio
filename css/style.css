@@ -30,6 +30,8 @@ h6 {
 
 
 
+
+
 .color{
     color: orange;
 }
@@ -57,13 +59,7 @@ p {
 }
 
 
-#portfolio .pfolio-item a{
-    color: darkgray;
-}
 
-.pfolio-item a:hover{
-    background: rgba(0,0,0,0.7) !important;
-}
 
 @media only screen and (max-width: 479px) {
     

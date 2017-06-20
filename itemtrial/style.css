@@ -1,5 +1,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 
 body{font-family:"Nunito Sans",Arial,sans-serif;line-height:1.6;font-size:16px;background:#fff;color:#848484;font-weight:300;position:relative;}a{color:#111;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;}a:hover,a:active,a:focus{color:#1E5465;outline:none;text-decoration:none;}p{margin-bottom:1.5em;font-size:16px;color:#646464;font-family:"Lato", sans-serif;}
