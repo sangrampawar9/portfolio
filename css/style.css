@@ -28,9 +28,7 @@ h6 {
   margin: 0px;
 }
 
-.caption a{
-    color: darkgray!important;
-}
+
 
 .color{
     color: orange;
@@ -56,6 +54,15 @@ p {
 #mainme{
     margin-left: 100px;
     margin-top: 30px;
+}
+
+
+#portfolio .pfolio-item a{
+    color: darkgray;
+}
+
+.pfolio-item a:hover{
+    background: rgba(0,0,0,0.7) !important;
 }
 
 @media only screen and (max-width: 479px) {
