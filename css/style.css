@@ -28,6 +28,10 @@ h6 {
   margin: 0px;
 }
 
+.caption a,p{
+    color: orange !important;
+}
+
 .color{
     color: orange;
 }
