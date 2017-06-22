@@ -26,6 +26,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+.carousel{
+    padding: 20px;
+}
+
+
 #unboxbutton{
     
     margin-left: 60px;
@@ -868,7 +873,7 @@ ul.banner-social-buttons {
         margin-top: 40px;
   padding-top: 30px;
     color: #646464;
-    background: #f5f5f5;
+    background: #d3d3d3;
 }
 @media screen and (max-width: 992px) {
   .portfolio-overview {
@@ -898,7 +903,7 @@ ul.banner-social-buttons {
   margin-bottom: 30px;
   padding-bottom: 10px;    
   padding-top: 10px;
-    background: #fff;
+    background: #d3d3d3;
 }
 .portfolio-feature.last-feature {
   border-bottom: none;
@@ -930,13 +935,40 @@ ul.banner-social-buttons {
     font-weight: 600;
 }
 
+.portfolio-overview{
+    text-align: center;
+}
+
 
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h2 { 
+    font-family:"Lato",Arial,sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
   position: relative;
   margin: 10px 0px 5px 0px;
 color: #646464;
 }
+
+.portfolio-feature .portfolio-copy > .portfolio-copy-inner h1 {
+   font-family:"Lato",Arial,sans-serif;
+    font-size: 33px; 
+} 
+
+
+.portfolio-overview .portfolio-copy > .portfolio-copy-inner h2 {
+   font-family:"Montserrat",Arial,sans-serif;
+    font-size: 38px; 
+} 
+
+
+
+.portfolio-overview .portfolio-copy > .portfolio-copy-inner h4 {
+   font-family:"Montserrat",Arial,sans-serif;
+     
+} 
+
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h3 { 
   position: relative;
