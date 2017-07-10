@@ -25,9 +25,12 @@
     $('.menu-list').on('click', function(event) {
 		$('.mainmenu').toggleClass('active');
 		$(this).toggleClass('active');
+        $('.nav-switch').toggleClass('active');
+		$(this).toggleClass('active');
 		event.preventDefault();
 	});
-
+    
+   
 
 	/*------------------
 		PROGRESS BAR
