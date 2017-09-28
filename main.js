@@ -11,7 +11,7 @@ $(window).load( function() {
     // HOME TYPED JS
      $(function(){
       $(".element").typed({
-        strings: ["UX Designer/Researcher", "Front-end Developer"],
+        strings: ["UX Designer", "Front-end Developer" , "UX Researcher"],
         typeSpeed: 10,
         loop:true,
           
