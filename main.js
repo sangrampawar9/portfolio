@@ -11,13 +11,8 @@ $(window).load( function() {
     // HOME TYPED JS
      $(function(){
       $(".element").typed({
-<<<<<<< HEAD
         strings: ["User Experience Designer", "Front-end Developer" , "User Experience Researcher"],
         typeSpeed: 50,
-=======
-        strings: ["UX Designer", "Front-end Developer" , "UX Researcher"],
-        typeSpeed: 10,
->>>>>>> origin/new-branch
         loop:true,
           
         backDelay: 2500
