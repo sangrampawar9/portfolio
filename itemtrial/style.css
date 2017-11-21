@@ -33,13 +33,10 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
-<<<<<<< HEAD
 .name h2{
     font-family:"Poppins",Arial,sans-serif !important;
     font-weight: 700 !important;
 }
-=======
->>>>>>> origin/new-branch
 
 #unboxbutton{
     
@@ -966,11 +963,7 @@ ul.banner-social-buttons {
     
   padding-top: 30px;
     color: #646464;
-<<<<<<< HEAD
     
-=======
-    background: #d3d3d3;
->>>>>>> origin/new-branch
 }
 @media screen and (max-width: 992px) {
   .portfolio-overview {
@@ -1000,11 +993,7 @@ ul.banner-social-buttons {
   margin-bottom: 30px;
   padding-bottom: 10px;    
   padding-top: 10px;
-<<<<<<< HEAD
     
-=======
-    background: #d3d3d3;
->>>>>>> origin/new-branch
 }
 .portfolio-feature.last-feature {
   border-bottom: none;
@@ -1040,11 +1029,7 @@ ul.banner-social-buttons {
 }
 
 .portfolio-overview{
-<<<<<<< HEAD
    text-align: center;
-=======
-    text-align: center;
->>>>>>> origin/new-branch
 }
 
 
@@ -1060,17 +1045,12 @@ color: #646464;
 }
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h1 {
-<<<<<<< HEAD
    font-family:"Montserrat",Arial,sans-serif;
-=======
-   font-family:"Lato",Arial,sans-serif;
->>>>>>> origin/new-branch
     font-size: 33px; 
 } 
 
 
 .portfolio-overview .portfolio-copy > .portfolio-copy-inner h2 {
-<<<<<<< HEAD
    font-family:"Lato",Arial,sans-serif;
     font-size: 28px;
     padding: 10px;
@@ -1078,16 +1058,11 @@ color: #646464;
   position: relative;
   margin: 10px 0px 5px 0px;
 color: #646464;
-=======
-   font-family:"Montserrat",Arial,sans-serif;
-    font-size: 38px; 
->>>>>>> origin/new-branch
 } 
 
 
 
 .portfolio-overview .portfolio-copy > .portfolio-copy-inner h4 {
-<<<<<<< HEAD
    font-family:"Lato",Arial,sans-serif;
     font-size: 28px;
     padding: 10px;
@@ -1095,9 +1070,6 @@ color: #646464;
   position: relative;
   margin: 10px 0px 5px 0px;
 color: #646464;
-=======
-   font-family:"Montserrat",Arial,sans-serif;
->>>>>>> origin/new-branch
      
 } 
 
