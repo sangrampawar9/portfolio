@@ -3,6 +3,8 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito+Sans');
 @import url('https://fonts.googleapis.com/css?family=Lato');
 
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700|Poppins:400,600,700');
+
 
 body{
     
@@ -15,7 +17,8 @@ body{
     position:relative;
 }
 
-a{color:#111;-webkit-transition:0.5s;-o-transition:0.5s;transition:0.5s;}a:hover,a:active,a:focus{color:#1E5465;outline:none;text-decoration:none;}p{margin-bottom:1.5em;font-size:16px;color:#646464;font-family:"Lato", sans-serif; font-weight: 400;}
+a{color:#111;}
+p{margin-bottom:1.5em;font-size:16px;color:#646464;font-family:"Lato", sans-serif; font-weight: 400;}
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -30,6 +33,13 @@ h1, h2, h3, h4, h5, h6 {
     padding: 20px;
 }
 
+<<<<<<< HEAD
+.name h2{
+    font-family:"Poppins",Arial,sans-serif !important;
+    font-weight: 700 !important;
+}
+=======
+>>>>>>> origin/new-branch
 
 #unboxbutton{
     
@@ -47,7 +57,19 @@ h1, h2, h3, h4, h5, h6 {
     color: red ;
 } 
 
+#rebutton{
+    text-decoration: none;
+    border: none;
+    background: none;
+}
 
+#rebutton{
+    border: 0.5px solid black;
+}
+
+#rebutton a:hover{
+    text-decoration-style: none;
+}
 
 #portfolio-header {
   position: absolute;
@@ -57,6 +79,13 @@ h1, h2, h3, h4, h5, h6 {
   top: 0;
   margin-top: 40px;
 }
+
+
+#carousel-example-generic{
+    margin-top: 50px;
+}
+
+
 @media screen and (max-width: 768px) {
   #portfolio-header {
     margin-top: 0;
@@ -92,10 +121,65 @@ h1, h2, h3, h4, h5, h6 {
     transform: scaleX(1);
   }
 }
-#portfolio-header .navbar {
-  padding-bottom: 0;
-  margin-bottom: 0;
+
+.about1 .athomeinfo p{
+    text-align: left !important;
 }
+.about1{
+    
+    border-bottom: 2px solid black;
+}
+
+.about1{
+    padding: 20px;
+    
+}
+
+#p1{
+    display: block;
+}
+
+
+.mainmenu ul {
+  display: table-cell;
+  vertical-align: middle;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.mainmenu ul li {
+padding: 0px;
+}
+
+.mainmenu ul li a {
+  font-family: "Poppins", sans-serif;
+  text-transform: uppercase;
+  color: #333;
+  font-size: 25px;
+  font-weight: 700;
+  display: block;
+  padding-left: 30px;
+  transition: all 0.5s cubic-bezier(0.4, 0, 1, 1) 0s;
+  box-shadow: 0 0 20px transparent;
+}
+
+.mainmenu ul li a:hover {
+  text-decoration: none;
+}
+
+.mainmenu ul li.current a {
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+    padding-left: 25px;
+    color: aqua;
+}
+
+
+
+
+
+
+
 #portfolio-header #navbar li a {
   color: #111;
   position: relative;
@@ -825,6 +909,7 @@ ul.banner-social-buttons {
   border-bottom: none !important;
 }
 #project-header .intro h2 {
+    
   font-size: 24px;
   line-height: 1.5;
  color: #646464;
@@ -842,10 +927,14 @@ ul.banner-social-buttons {
 }
 
 .img-project {
-    margin-top: 10em;
-    margin-left: 3em;
+    margin-top: 7em;
+    margin-left: 14em;
     
     
+}
+
+.figure-caption{
+     margin-left: 28em;
 }
 
 .img-np {
@@ -866,14 +955,22 @@ ul.banner-social-buttons {
   box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.25);
 }
 
-
+#overview{
+    margin-left: 60px !important;
+}
 .portfolio-overview {
+    
   margin-bottom: 2em;
   padding-bottom: 2em;
         margin-top: 40px;
+    
   padding-top: 30px;
     color: #646464;
+<<<<<<< HEAD
+    
+=======
     background: #d3d3d3;
+>>>>>>> origin/new-branch
 }
 @media screen and (max-width: 992px) {
   .portfolio-overview {
@@ -883,7 +980,7 @@ ul.banner-social-buttons {
 
 
 #main {
-    background-color: rgba(245, 245, 245, 1);
+    
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
@@ -903,11 +1000,18 @@ ul.banner-social-buttons {
   margin-bottom: 30px;
   padding-bottom: 10px;    
   padding-top: 10px;
+<<<<<<< HEAD
+    
+=======
     background: #d3d3d3;
+>>>>>>> origin/new-branch
 }
 .portfolio-feature.last-feature {
   border-bottom: none;
 }
+
+
+
 @media screen and (max-width: 992px) {
   .portfolio-feature {
     overflow: hidden;
@@ -936,7 +1040,11 @@ ul.banner-social-buttons {
 }
 
 .portfolio-overview{
+<<<<<<< HEAD
+   text-align: center;
+=======
     text-align: center;
+>>>>>>> origin/new-branch
 }
 
 
@@ -952,35 +1060,66 @@ color: #646464;
 }
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h1 {
+<<<<<<< HEAD
+   font-family:"Montserrat",Arial,sans-serif;
+=======
    font-family:"Lato",Arial,sans-serif;
+>>>>>>> origin/new-branch
     font-size: 33px; 
 } 
 
 
 .portfolio-overview .portfolio-copy > .portfolio-copy-inner h2 {
+<<<<<<< HEAD
+   font-family:"Lato",Arial,sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+  position: relative;
+  margin: 10px 0px 5px 0px;
+color: #646464;
+=======
    font-family:"Montserrat",Arial,sans-serif;
     font-size: 38px; 
+>>>>>>> origin/new-branch
 } 
 
 
 
 .portfolio-overview .portfolio-copy > .portfolio-copy-inner h4 {
+<<<<<<< HEAD
+   font-family:"Lato",Arial,sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
+  position: relative;
+  margin: 10px 0px 5px 0px;
+color: #646464;
+=======
    font-family:"Montserrat",Arial,sans-serif;
+>>>>>>> origin/new-branch
      
 } 
 
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h3 { 
+  font-family:"Lato",Arial,sans-serif;
+    font-size: 28px;
+    padding: 10px;
+    margin-bottom: 20px;
   position: relative;
-  padding-bottom: 10px;
-  margin: 30px 0px 10px 0px;
-    color: #646464;
+  margin: 10px 0px 5px 0px;
+color: #646464;
 }
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner h4 { 
+  font-family:"Lato",Arial,sans-serif;
+    
+    padding: 10px;
+    margin-bottom: 20px;
   position: relative;
-  margin: 20px 10px 10px 0px;
-    color: #646464;
+  margin: 10px 0px 5px 0px;
+color: #646464;
 }
 
 .portfolio-feature .portfolio-copy > .portfolio-copy-inner p { 
@@ -1059,10 +1198,17 @@ color: #646464;
     .demo{
         display: none;
     }
+    
+    .prototype{
+        display: none;
+    }
   }
 
 @media screen and (max-width: 780px) {
     .demo{
+        display: none;
+    }
+     .prototype{
         display: none;
     }
   }
@@ -1070,13 +1216,26 @@ color: #646464;
 
 @media screen and (max-width: 480px) {
   .img-project {
-      margin-left: -20px;
+      margin-left: 0px;
       
-   margin-top: 0px;
+   margin-top:200px !important;
      
-      
+     
   }
-}
+    #overview{
+        margin-left: 30px;
+    }
+    
+    .portfolio-feature {
+        margin-left: 32px;
+    }
+    
+    .intro-inner h2{
+        font-size: 30px !important;
+        
+    }
+    
+ }
 
 @media screen and (max-width: 800px) {
   .img-project {

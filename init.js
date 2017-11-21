@@ -7,7 +7,11 @@ var o = {
 	},
 	diagram: function(){
 		var r = Raphael('diagram', 600, 600),
+<<<<<<< HEAD
+			rad = 60,
+=======
 			rad = 73,
+>>>>>>> origin/new-branch
 			defaultText = 'ME',
 			speed = 250;
 		
@@ -21,7 +25,11 @@ var o = {
 		r.customAttributes.arc = function(value, color, rad){
 			var v = 3.6*value,
 				alpha = v == 360 ? 359.99 : v,
+<<<<<<< HEAD
+				random = (91, 240),
+=======
 				random = o.random(91, 240),
+>>>>>>> origin/new-branch
 				a = (random-alpha) * Math.PI/180,
 				b = random * Math.PI/180,
 				sx = 300 + rad * Math.cos(b),
@@ -39,8 +47,13 @@ var o = {
 				text = t.find('.text').text();
                
 			
+<<<<<<< HEAD
+			rad += 20;	
+			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 30 });
+=======
 			rad += 30;	
 			var z = r.path().attr({ arc: [value, color, rad], 'stroke-width': 26 });
+>>>>>>> origin/new-branch
 			
 			z.mouseover(function(){
                 this.animate({ 'stroke-width': 50, opacity: .75 }, 1000, 'elastic');

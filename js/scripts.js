@@ -30,6 +30,10 @@
 		event.preventDefault();
 	});
     
+<<<<<<< HEAD
+    
+=======
+>>>>>>> origin/new-branch
    
 
 	/*------------------
