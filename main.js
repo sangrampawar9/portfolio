@@ -11,15 +11,15 @@ $(window).load( function() {
     // HOME TYPED JS
      $(function(){
       $(".element").typed({
-        strings: ["UX Designer/Researcher", "Front-end Developer"],
-        typeSpeed: 10,
+        strings: ["User Experience Designer", "Front-end Developer" , "User Experience Researcher"],
+        typeSpeed: 50,
         loop:true,
           
-        backDelay: 1500
+        backDelay: 2500
       });
   });
      $(".element").css("color","#FFA500");
-    
+    $(".element").css("font-size","40px");
     
     
 }); // document ready end 

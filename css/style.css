@@ -10,11 +10,26 @@
 body,
 html {
   height: 100%;
+    
 }
 
 body {
   font-family: "Montserrat", sans-serif;
   overflow: hidden;
+    
+}
+
+.extra{
+    font-size: 20px;
+    color: black;
+}
+
+#sideresearch{
+    margin-top: 50px;
+}
+
+#about{
+    
 }
 
 h1,
@@ -26,10 +41,15 @@ h6 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
   margin: 0px;
+    
 }
 
-
-
+#portfolio h1{
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+}
 
 
 .color{
@@ -58,14 +78,55 @@ p {
     margin-top: 30px;
 }
 
+.info{
+    margin-top: -70px;
+}
+
+.mydesign{
+    
+    margin-top: 50px;
+}
 
 
+.skillsbottom{
+    margin-top: 40px;
+}
+
+.skillshover{
+    margin-top: 100px;
+}
+
+ul{
+    list-style: none;
+}
+
+.details h4{
+    font-size: 30px;
+}
 
 @media only screen and (max-width: 479px) {
     
     #mainme{
         margin: auto;
     }
+    .mydesign{
+    
+    margin-top: 0px;
+        width: 100%;
+}
+    
+    #sideresearch{
+        margin-left: 30px;
+    }
+    
+    #message{
+        width: 90%;
+    }
+    
+    #send-form{
+        float: none;
+    }
+
 }
 
 a:hover,
@@ -75,6 +136,9 @@ a:focus {
   outline: 0;
   outline-offset: 0;
 }
+
+
+
 
 img {
   max-width: 100%;
@@ -88,6 +152,7 @@ img {
 .spad {
   padding-top: 80px;
   padding-bottom: 80px;
+    
 }
 
 
@@ -189,6 +254,16 @@ img {
   font-weight: 300;
 }
 
+.side{
+    margin-top: 50px;
+}
+
+
+
+.colour{
+    color: black;
+}
+
 /* Preloader */
 #preloader {
   position: fixed;
@@ -279,6 +354,8 @@ img {
   position: relative;
   text-align: center;
   padding: 5px;
+    bottom: 0;
+    margin-top: 10px;
 }
 
 .logo h2 {
@@ -306,16 +383,17 @@ img {
   font-size: 18px;
   color: #333;
   padding: 5px;
+    padding-bottom: 25px;
 }
 
 .nav-switch {
   position: absolute;
   width: 100%;
   height: 60px;
-  padding-top: 20px;
+  padding-top: 35px;
   display: block;
   text-align: center;
-  bottom: 0;
+  
   border-top: 1px solid #ecebeb;
   cursor: pointer;
 }
@@ -384,6 +462,7 @@ img {
 
 .mainmenu.active {
   left: 40px;
+    color: aqua;
   box-shadow: 5px 0 18px rgba(0, 0, 0, 0.1);
 }
 
@@ -396,11 +475,15 @@ img {
   margin: 0;
 }
 
+.mainmenu ul li {
+padding: 10px;
+}
+
 .mainmenu ul li a {
   font-family: "Poppins", sans-serif;
   text-transform: uppercase;
   color: #333;
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 700;
   display: block;
   padding-left: 30px;
@@ -413,7 +496,9 @@ img {
 }
 
 .mainmenu ul li.current a {
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 20px 20px 40px rgba(0, 0, 0, 0.15);
+    padding: 2px;
+    color: aqua;
 }
 
 
@@ -432,7 +517,7 @@ img {
   height: 100%;
   left: 0;
   top: 0;
-  background-image: url("../img/bg.jpg");
+  background-image: url("Rectangle.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -453,7 +538,7 @@ img {
   height: 100%;
   left: 0;
   top: 0;
-  background: #000;
+  
   opacity: 0.5;
 }
 
@@ -487,9 +572,11 @@ img {
 }
 
 .intro-inner .intro-content h2 {
-  color: #fff;
+  color: #000;
   font-family: "Poppins", sans-serif;
-  font-size: 80px;
+  font-size: 30px;
+    margin-bottom: 900px;
+    margin-right: 800px;
 }
 
 .intro-inner .intro-content h3 {
@@ -505,6 +592,11 @@ img {
 ====================================== */
 .about-text h2 {
   margin-bottom: 20px;
+}
+
+.aboutme p{
+    font-family: Montserrat,sans-serif !important;
+    font-size: 15px;
 }
 
 .skills {
@@ -553,15 +645,48 @@ img {
   border-radius: 25px;
 }
 
+#process{
+    border-bottom: 0.5px dotted black;
+}
 
+#circleoflife{
+    border-bottom: 0.5px dotted black;
+}
+
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+
+.heading h1{
+     font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 60px;
+}
+
+
+.legend1{
+    
+    margin-top: -20px;
+}
+
+#content{
+     margin-top: 100px;
+   
+}
+
+.circles{
+    margin-top: -90px;
+}
 
 /* ===================================
   05. Services Section
 ====================================== */
 .services-section {
-  background: #fbfbfb;
-  border-bottom: 2px solid #f5f5f5;
-  border-top: 2px solid #f5f5f5;
+  background: #fff;
+  
 }
 
 .services-section .container {
@@ -667,6 +792,11 @@ img {
   background: #fbfbfb;
   border-bottom: 2px solid #f5f5f5;
   border-top: 2px solid #f5f5f5;
+}
+
+#portfolio1{
+    background: #fff;
+    border-bottom: 0.5px dotted black;
 }
 
 .portfolio_container {
@@ -1408,6 +1538,15 @@ img {
   .intro-inner .intro-content h2 {
     font-size: 40px;
   }
+    
+    .portfolioimage9{
+    padding: 50px;
+}
+    
+    
+    .info{
+    margin-top: 10px;
+}
 }
 
 

@@ -7,16 +7,23 @@
 	<meta name="keywords" content="Sangram Pawar Portfolio">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
+    
+    <link rel="stylesheet" href="jBox.css">
+<link rel="stylesheet" href="Demo.css">
 	<link rel="stylesheet" href="css/bootstrap.min.css"/>
 	<link rel="stylesheet" href="css/font-awesome.min.css"/>
 	<link rel="stylesheet" href="css/magnific-popup.css"/>
 	<link rel="stylesheet" href="css/owl.carousel.css"/>
 	<link rel="stylesheet" href="css/animate.min.css"/>
     
-    <link rel="icon" href="itemtrial/logo.png"/>
+    <link href="default.css" rel="stylesheet" type="text/css" />
+    <link href="reset.css" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Cabin+Sketch:bold" rel="stylesheet" type="text/css" />
+    
+    <link rel="icon" href="images/newlogo2.png"/>
     
     
-  
+ 
     
      
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -26,7 +33,7 @@
     <link href="https://fonts.googleapis.com/css?family=Mogra" rel="stylesheet">
    
      <link rel="stylesheet" type="text/css" href="style.css">
-	
+	 
     
      <link rel="stylesheet" type="text/css" href="uikit.min.css">
        
@@ -47,6 +54,14 @@
 	  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
 
+    
+    
+     <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.0/build/pure-min.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+   <!-- Style The Contact Form How Ever You Prefer -->
+   <link rel="stylesheet" href="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/style.css">
+     
+    
 </head>
 <body>
 	<!-- ==== Preloader Start ==== -->
@@ -63,10 +78,13 @@
 
 	<!-- ==== Left Bar Start ==== -->
 	<div class="left-bar">
-		<div class="logo">
-           <a href="#">  <img src="itemtrial/logo.png" alt="Logo"></a> 
-			<a href="#about"><img src="images/me2.gif" alt="me"></a>
+        
+		<div class="nav-switch">
+			<span class="bar-one"></span>
+			<span class="bar-two"></span>
+			<span class="bar-three"></span>
 		</div>
+        
 		<div class="social">
 			<div>
 				<a href="https://www.linkedin.com/in/sangram-pawar-838036b1"><i class="fa fa-linkedin"></i></a>
@@ -74,11 +92,8 @@
 				<a href="https://github.com/sangrampawar9"><i class="fa fa-github"></i></a>
 			</div>
 		</div>
-		<div class="nav-switch">
-			<span class="bar-one"></span>
-			<span class="bar-two"></span>
-			<span class="bar-three"></span>
-		</div>
+		
+        
 	</div>
 	<!-- ==== Left Bar End ==== -->
 
@@ -87,28 +102,41 @@
 	<nav class="mainmenu">
 		<ul class="menu-list">
 			<li><a href="#home">Home</a></li>
-			<li><a href="#about">About</a></li>
 			
-			<li><a href="#portfolio">My Work</a></li>
+			<li><a href="#portfolio1">Work</a></li>
+            
+            <li><a href="#about">About</a></li>
 			
 			<li><a href="#contact">Contact</a></li>
 		</ul>
 	</nav>
 	<!-- ==== Nav Menu End ==== -->
-
+<div class="intro-inner" >
+			<div class="intro-content">
+                <div class="container">
+                <a href="index.html" ><img class="portfolioimage9" src="me3.jpg" alt="Portfolio Image"></a>
+                </div>
+				<div class="container">
+                    
+                <span class="element wow fadeInLeftBig" id="flash" data-wow-delay="1.5s"></span>
+                </div>
+                    </div>
+                </div>
 
 	<!-- ==== Intro Section Start ==== -->
 	<section class="intro-section" id="home">
 		<div class="intro-bg"></div>
-		<div id="particles"></div>
+		
 		<div class="intro-inner">
 			<div class="intro-content">
-				<div class="container">
-                    <span class="element wow fadeInLeftBig" data-wow-delay="1.5s"></span>
-					<h2 class="wow lightSpeedIn" data-wow-delay="2.5s" >Sangram Pawar</h2>
+				<div class="container name">
+                    
+                    <a href="#"><h2 class="wow rollIn" data-wow-delay="1s" >Sangram Pawar</h2></a>
+                   
                    
 					
 				</div>
+                
                
 			</div>
             
@@ -117,172 +145,40 @@
 	</section>
 	<!-- ==== Intro Section End ==== -->
 
-	
-	<!-- ==== About Section Start ==== -->
-	<section class="about-section spad" id="about">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6 profile-pic wow fadeInDown" data-wow-delay="0.3s">
-					
-                    <img src="images/gifme.gif" id="mainme" alt="">
-                    
-				</div>
-				<div class="col-md-6 about-text wow fadeInUp" data-wow-delay="0.4s">
-					<h2>Hello,</h2>
-					<p>I am <strong>Sangram</strong>. A enthusiastic designer+coder having 3 years of hand-on experience in designing and prototyping. I am a problem solver with a knack for finding new solutions to old problems! </p>
-                    
-                    
-					
-					<div class="skills">
-                        
-                        
-						<div class="single-progress-item">
-							<p>Adobe CC</p>
-							<div class="progress">
-            <div class="progress-bar wow fadeInLeft"  role="progressbar" aria-valuenow="90" style="width:80%;" aria-valuemin="0" aria-valuemax="100" data-wow-duration="1.5s" data-wow-delay="1s">
-            </div>
-            </div>
-                        </div>
-					
-                   
-                        
-						<div class="single-progress-item">
-							<p>HTML/CSS</p>
-							<div class="progress">
-            <div class="progress-bar wow fadeInLeft"  role="progressbar" aria-valuenow="92" style="width:92%;" aria-valuemin="0" aria-valuemax="100" data-wow-duration="1.5s" data-wow-delay="1s">
-            </div>
-            </div>
-                            </div>
-                            
-                            
-						<div class="single-progress-item">
-							<p>Javascript</p>
-							<div class="progress">
-            <div class="progress-bar wow fadeInLeft"  role="progressbar" aria-valuenow="75" style="width:75%;" aria-valuemin="0" aria-valuemax="100" data-wow-duration="1.5s" data-wow-delay="1s">
-            </div>
-            </div>
-                            </div>
-                            
-						<div class="single-progress-item">
-							<p>Prototyping</p>
-							<div class="progress">
-            <div class="progress-bar wow fadeInLeft"  role="progressbar" aria-valuenow="85" style="width:85%;" aria-valuemin="0" aria-valuemax="100" data-wow-duration="1.5s" data-wow-delay="1s">
-            </div>
-            </div>
-                              </div>
-                            
-						<div class="single-progress-item">
-							<p>Sketching </p>
-							<div class="progress">
-            <div class="progress-bar wow fadeInLeft"  role="progressbar" aria-valuenow="80" style="width:80%;" aria-valuemin="0" aria-valuemax="100" data-wow-duration="1.5s" data-wow-delay="1s">
-            </div>
-            </div>
-					</div>
-                             </div>
-                            
-					<a href="https://drive.google.com/file/d/0B494l_N2jPWIWFN4ektzTVpkZzQ/view" target="_blank" class="site-btn btn-pro xs-mb20">Resume <i class="fa fa-download"></i></a>
-					<a href="#contact"  class="site-btn ml10 btn-pro-line">Hire Me</a>
-				</div>
-			</div>
-		</div>
-               
-        
-	</section>
-	<!-- ==== About Section End ==== -->
-
-
-	
-	<section class="services-section spad">
-		<div class="container">
-            <div class="section-title">
-				<h2>Ho<span>w I think!</span></h2>
-			</div>
-			<div class="row">
-                
-                <div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="0.6s">
-					<div class="service-item">
-						<div class="icon"><i class="fa fa-lightbulb-o color" aria-hidden="true"></i></div>
-						<h3>IDEATION</h3>
-                        <p>Brainstorming    <i class="fa fa-arrow-right" aria-hidden="true"></i> Pencil Sketches  <i class="fa fa-arrow-right" aria-hidden="true"> </i> User Research <i class="fa fa-arrow-right" aria-hidden="true"> </i> Competitor Analysis  <i class="fa fa-arrow-right" aria-hidden="true"></i>  Surveys & Contextual Inquiries  </p>
-					</div>
-				</div>
-				
-				<div class="col-md-4 col-sm-4 wow fadeInDown" data-wow-delay="0.4s">
-					<div class="service-item">
-						<div class="icon"><i class="fa fa-pencil-square-o color"></i></div>
-						<h3>DESIGN</h3>
-						<p>Wireframing <i class="fa fa-arrow-right" aria-hidden="true"></i> Personas & Storyboarding <i class="fa fa-arrow-right" aria-hidden="true"></i>Prototypes  <i class="fa fa-arrow-right" aria-hidden="true"></i> Experience Maps  <i class="fa fa-arrow-right" aria-hidden="true"></i> UI Design</p>
-					</div>
-				</div>
-                
-                <div class="col-md-4 col-sm-4">
-					<div class="service-item wow fadeInDown" data-wow-delay="0.2s">
-						<div class="icon"><i class="fa fa-cog fa-spin color"></i></div>
-						<h3>CODING & TESTING</h3>
-						<p>Programming  <i class="fa fa-arrow-right" aria-hidden="true"></i> Usability Testing/ AB Testing <i class="fa fa-arrow-right" aria-hidden="true"></i> Evaluation  <i class="fa fa-arrow-right" aria-hidden="true"></i> Revision <i class="fa fa-arrow-right" aria-hidden="true"></i> Optimization  </p>
-					</div>
-				</div>
-				
-
-			</div>
-            <p><b><i>Note: Design process subject to change depending upon the project/product and its peripheral elements.</i></b></p>
-		</div>
-	</section>
-	
-
-	
     
-    <section class="tc-works sec-spacer sec-color " id="portfolio">
+    
+    
+    
+       <section class="tc-works sec-spacer sec-color " id="portfolio1">
                 <div class="uk-container uk-container-center">
-                    <h3 class="uk-text-center uk-margin-bottom-remove">Check Out</h3>
-                    <h1 class="uk-margin-top-remove uk-text-center mb60">My Work</h1>
+                    <h3 class="uk-text-center uk-margin-bottom-remove"></h3>
+                    <h1 class="uk-margin-top-remove uk-text-center mb60">Latest Work</h1>
                    
                     
                     <div>
                         
                         
                     
-                    <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn" data-wow-delay="0.4s">
+                        
+                         <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInLeft" id="bergen" data-wow-delay="0.6s">
                             <div class="pfolio-item">
-                                <a href="itemtrial/athome.html" class=""><img src="images/final-file_hci_hifi-01.png" alt="Portfolio Image"></a>
+                                <a href="itemtrial/athome.html">
+                                <img src="images/final-file_hci_hifi-01.png" alt="Portfolio Image">                                </a>
                                 <div class="caption">
-                                    <h3><a href="itemtrial/athome.html">At Home</a></h3>
+                                    <h3><a href="itemtrial/athome.html">Athome</a></h3>
                                     
                                     <p>Smart Home System</p>
                                 </div>
-                               
-                            
-                        
-                    </div>
+
+                            </div>
+                    
+                   
                         </div>
+                             
+                       
                     
-                    <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn" data-wow-delay="0.8s">
-                            <div class="pfolio-item">
-                                <a href="itemtrial/bergenswamp.html" class=""><img src="images/Web%201920%20%E2%80%93%201.png" alt="Portfolio Image"></a>
-                                <div class="caption">
-                                    <h3><a href="itemtrial/bergenswamp.html">Bergen Swamp Preservation Society</a></h3>
-                                    
-                                    <p>Usability Testing</p>
-                                </div>
-                               
-                            </div>
                     
-                    </div>
-                        
-                         <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn"data-wow-delay="1.2s">
-                           <div class="pfolio-item">
-                                <a href="itemtrial/accoutre.html" class=""><img src="images/accoutre1.png" alt="Portfolio Image"></a>
-                                <div class="caption">
-                                    <h3><a href="itemtrial/accoutre.html">Accoutre</a></h3>
-                                    
-                                    <p>Smart Clothing app</p>
-                                </div>
-                               
-                            </div>
-                    </div>
-                        
-                        
-                        <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn"data-wow-delay="1.6s">
+                        <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInRight"data-wow-delay="0.4s">
                             <div class="pfolio-item">
                                 <a href="itemtrial/unbox.html"><img src="images/unbox.png" alt="Portfolio Image"></a>
                                 <div class="caption">
@@ -294,8 +190,48 @@
                             </div>
                     </div>
                         
+                         <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInLeft"data-wow-delay="0.8s">
+                           <div class="pfolio-item">
+                                <a href="itemtrial/accoutre.html" ><img src="images/accoutre1.png" alt="Portfolio Image"></a>
+                                <div class="caption">
+                                    <h3><a href="itemtrial/accoutre.html">Accoutre</a></h3>
+                                    
+                                    <p>Smart Clothing app</p>
+                                </div>
+                               
+                            </div>
+                    </div>
                         
-                    <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn"data-wow-delay="2.0s">
+                        
+                        <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInLeft" id="bergen" data-wow-delay="0.6s">
+                            <div class="pfolio-item">
+                                <a href="itemtrial/bergenswamp.html">
+                                <img src="images/Web%201920%20%E2%80%93%201.png" alt="Portfolio Image">                                </a>
+                                <div class="caption">
+                                    <h3><a href="itemtrial/bergenswamp.html">Bergen Swamp Preservation Society</a></h3>
+                                    
+                                    <p>Usability Testing</p>
+                                </div>
+
+                            </div>
+                    
+                    </div>
+                        
+                        
+                    
+                    
+                    <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInRight"data-wow-delay="0.8s">
+                            <div class="pfolio-item">
+                                <a href="itemtrial/portfolio.html" ><img src="itemtrial/istmain.png" alt="Portfolio Image"></a>
+                                <div class="caption">
+                                    <h3><a href="itemtrial/ist.html">IST Department, RIT</a></h3>
+                                    
+                                    <p>Website design</p>
+                                </div>
+                               
+                            </div>
+                    </div>
+                        <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow slideInRight"data-wow-delay="0.6s">
                             <div class="pfolio-item">
                                 <a href= "itemtrial/wearemin.html"><img src="images/wearemin.png" alt="Portfolio Image"></a>
                                 <div class="caption"  >
@@ -307,69 +243,286 @@
                             </div>
                     </div>
                     
-                    <div class="grid-item col-md-4 col-sm-4 col-xs-12 wow lightSpeedIn"data-wow-delay="2.4s">
-                            <div class="pfolio-item">
-                                <a href="itemtrial/portfolio.html" ><img src="itemtrial/logo1.png" alt="Portfolio Image"></a>
-                                <div class="caption">
-                                    <h3><a href="itemtrial/portfolio.html">Portfolio</a></h3>
-                                    
-                                    <p>Website design</p>
-                                </div>
-                               
-                            </div>
-                    </div>
+               
+                 
+    </div>
+                         
+           
+    </div>
+           
+           
+    
+        <div class="row pfolio-item" id="sideresearch">
+                        <div class="grid-item col-md-3 col-md-offset-4 ">
+                            
+                        <i class="fa fa-book fa-2x colour" aria-hidden="true"></i> <a class="extra" href="itemtrial/research.html">   Research</a>
+                         
+                        </div>
+                            
+                        <div class="grid-item col-md-3  ">
+                           
+                        <i class="fa fa-briefcase fa-2x colour" aria-hidden="true"> </i><a class="extra" href="itemtrial/sideprojects.html">   Side Projects</a>
+                           
+                        </div>
                     
-                   
-    </div>
-    </div>
+                    </div>   
+    
                 
             </section>
-
-
-	
-
-	
-	<section class="contact-section" id="contact">
+    
+   
+    
+    
+    
+    
+    <section class="services-section spad" id="process">
 		<div class="container">
-			<div class="section-title">
-				<h2>Co<span>ntact</span></h2>
+            <div class="heading">
+				<h1>My Design Process</h1>
+			</div>
+            
+            
+            <div class="row mydesign">
+            
+            <div class="col-md-8 col-sm-8 col-md-offset-2 wow fadeInDown" data-wow-delay="0.6s">
+            <img class="portfolioimage9" src="mydesign.png" alt="Portfolio Image">
+            </div>
+            </div>
+			
+            <div class="row skillshover">
+            
+                
+
+
+
+<div class="targets-wrapper">
+    <div class="row">
+    
+    
+    <div class="col-md-12 col-md-offset-1">
+   
+
+<div id="s1" class="target">Research</div>
+    
+    <div id="s2" class="target">Analysis</div>
+    
+    <div id="s3" class="target">Design</div>
+         </div>
+        
+        </div>
+    
+     <div class="row skillsbottom">
+    
+    
+    <div class="col-md-12 col-md-offset-1">
+    
+    <div id="s4" class="target">Prototypes</div>
+    
+    <div id="s5" class="target">Testing</div>
+    
+    <div id="s6" class="target">Development</div>
+         </div>
+    </div>
+
+</div>
+
+
+            
+            </div>
+            
+		</div>
+	</section>
+	
+    
+    
+    
+    
+    
+	
+	<!-- ==== About Section Start ==== -->
+	<section class="about-section spad" id="about">
+		<div class="container">
+            <div class="heading">
+				
+                <h1>About me</h1>
+                
+			</div>
+            
+			<div class="row aboutme">
+                
+                
+                 <div class="col-md-8 col-md-offset-2 wow fadeInDown" data-wow-delay="0.3s">
+					
+                   <p> <b>Sangram</b> is a UX Designer by day and an overthinker by night. (He likes to talk in the third person. The first and the second person think that it is hilarious and a bit pompous but they rarely say anything. He thinks they are jealous of him) He is an Electronic Engineer(?) turned design student. Currently, fumbling through the hurried conundrum of New-York while t(c)rying to be a good User Experience designer. When he is not being a goofball, he likes to complicate his life for a living so that he can try and uncomplicate it with some good design solutions.<br> An implusive person and a compulsive procrastinator, he fuels his day grind with coffee, distractions and discourses. Enjoy's puns, sarcasm, satire and healthy silences. A couch warmer, generally the quietest soul in the room but can magically turn into a ninja when hurt. Often found in the corner of the room, huddled under a blanket gulping down ice-cream while overthinking about overthinking. A masters student straying halfway across the world from home. Loves grumbling about grad life woes everybit as much as loving it. We would get along if you are a bit awkward, tell jokes that people walk away from and dont understand life at all. <br> Oh, and is horrible at writing a bio. </p>
+                     <br>
+                     <br>
+                     <p>Want to hire me? Check out my Resume!</p>
+                     <p><a href="https://drive.google.com/open?id=1OFwb0gYh144UPJRUyj5nNMcOFexqGoLP" target="_blank">Resume</a></p>
+                     
+                    
+				</div>
+                
+				
+                
+               
+				
+			</div>
+		</div>
+               
+        
+	</section>
+	
+    
+    
+    
+    <section class="about-section spad" id="circleoflife">
+        
+		<div class="container">
+            <div class="heading">
+				
+                <h1>My Cricle of Life</h1>
+                
+			</div>
+			<div class="row circles">
+               
+				<div class="col-md-12 legend1">
+					
+                    <div id="content">
+			<div class="legend">
+				
+				<div class="skills1">
+					<ul>
+						<li class="jq">What I Like</li>
+						<li class="css">Where I am from</li>
+						
+						<li class="php"> Favourite Song </li>
+                        <li class="html">Who I follow</li>
+						<li class="sql">Favourite Superhero</li>
+					</ul>
+				</div>	
+                
+			</div>
+			
+		</div>
+                </div>
+                
+                <div class="row">
+   <div class="col-md-12 wow fadeInDown" data-wow-delay="0.3s">                 
+<div id="diagram"></div>
+                    </div>
+		</div>
+		</div>
+            
+             <div class="row">
+   <div class="col-md-12 info "> 
+       <p>Hover/Click over the circles to know more about me!<br>
+       Created with javascript and rapahel.js javascript library. </p>
+                 </div>
+            </div>
+
+		<div class="get">
+			<div class="arc">
+				<span class="text">Soccer</span>
+				<input type="hidden" class="percent" value="100"/>
+				<input type="hidden" class="color" value="#97BE0D" />
+			</div>
+			<div class="arc">
+				<span class="text">India</span>
+				<input type="hidden" class="percent" value="100" />
+				<input type="hidden" class="color" value="#D84F5F" />
+			</div>
+			<div class="arc">
+				<span class="text">Hotel California</span>
+				<input type="hidden" class="percent" value="100" />
+				<input type="hidden" class="color" value="#88B8E6" />
+			</div>
+			<div class="arc">
+				<span class="text">Elon Musk</span>
+				<input type="hidden" class="percent" value="100" />
+				<input type="hidden" class="color" value="#BEDBE9" />
+			</div>
+			<div class="arc">
+				<span class="text">IRONMAN</span>
+				<input type="hidden" class="percent" value="100" />
+				<input type="hidden" class="color" value="#FFA500"/>
+			</div>
+		</div>
+                    
+				</div>
+				
+			
+        
+        </section>
+               
+       
+
+	
+	<section class="about-section spad" id="contact" >
+		<div class="container">
+			<div class="heading">
+				<h1>Contact</h1>
+                
 			</div>
 			<div class="row">
-				<div class="col-md-7 col-sm-6">
+				
+                
+                <div class="col-md-7 col-sm-7">
 					<!-- Contact Form -->
-					<form action="mail.php" id="contact-form" method="POST" >
+					<form id="gform" method="POST" class="pure-form pure-form-stacked" data-email="example@email.net"
+  action="https://script.google.com/macros/s/AKfycbxM4H8jQ3TDw5Z3SaolvL_i5sCjfVb8A3n1uWj6D1HaQYOBrzI/exec">
 						<div class="row">
-							<div class="col-sm-6">
-								<input type="text" name="name" id="name" required placeholder="Your Name*">
-							</div>
-							<div class="col-sm-6">
-								<input type="email" name="email" id="email" required placeholder="Your Email*">
-							</div>
-							<div class="col-sm-12">
-								<textarea id="massage" name="massage" required placeholder="Your Message*"></textarea>
-							</div>
-							<div class="text-center">
-								<button type="submit" class="site-btn btn-pro-line wow rollIn" data-wow-delay="0.2s" id="send-form">Send A Message</button>
-							</div>
+							<fieldset class="pure-group">
+      <label for="name">Name: </label>
+      <input id="name" name="name" placeholder="XYZ" />
+    </fieldset>
+							<fieldset class="pure-group">
+      <label for="email">Your Email Address:</label>
+      <input id="email" name="email" type="email" value=""
+      required placeholder="your.name@email.com"/>
+      <span id="email-invalid" style="display:none">
+        Must be a valid email address</span>
+    </fieldset>
+							 <fieldset class="pure-group">
+      <label for="message">Message: </label>
+      <textarea id="message" name="message" rows="10"
+      placeholder="Tell me what's on your mind..."></textarea>
+    </fieldset>
+                             
+							
+								<button type="submit" class=" site-btn btn-pro-line" data-wow-delay="0.2s" id="send-form">Send A Message</button>
+							
 						</div>
 					</form>
 				</div>
-				<div class="col-md-5 col-sm-6">
-					<ul class="contact-info">
+                
+               
+                   
+                <div style="display:none;" id="thankyou_message">
+    <h2><em>Thanks</em> for contacting me!
+      I will get back to you soon!</h2>
+  </div>
+                   
+                  
+                
+                
+				<div class="col-md-5 col-sm-5">
+					<ul class="details">
 						<li>
-							<h4><i class="fa fa-map"></i>Location</h4>
-							<p>168, Crittenden Way Apartments<br>Rochester, NewYork- 14623</p>
+							<h4><i class="fa fa-home "></i>  Location</h4>
+							<p>57 West Squire Dr<br>Rochester, New-York</p>
 						</li>
 						<li>
-							<h4><i class="fa fa-envelope"></i>Email</h4>
+							<h4><i class="fa fa-envelope "></i>  Email</h4>
 							<p>svp1562@rit.edu</p>
 						</li>
 						<li>
-							<h4><i class="fa fa-phone"></i>Phone</h4>
+							<h4><i class="fa fa-phone "></i>  Phone</h4>
 							<p>585-490-7672</p>
 						</li>
 					</ul>
 				</div>
+              
+                
 			</div>
 		</div>
 	</section>
@@ -379,6 +532,7 @@
 	<!-- ==== Footer Section Start ==== -->
 	<footer class="footer-section spad">
 		<p>  COPYRIGHT &copy; <B>Sangram Pawar </B> 2017</p>
+        <p> Website Designed and Developed by Sangram Pawar </p>
 	</footer>
 	<!-- ==== Footer Section End ==== -->
 
@@ -397,7 +551,8 @@
     
     
     
-	
+	<script src="raphael.js" type="text/javascript"></script>
+		<script src="init.js" type="text/javascript"></script>
 	<script src="js/bootstrap.min.js"></script>
 	<script src="js/imagesloaded.pkgd.min.js"></script>
 	<script src="js/isotope.pkgd.min.js"></script>
@@ -410,6 +565,13 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB0YyDTa0qqOjIerob2VTIwo_XVMhrruxo"></script>
 	<script src="js/scripts.js"></script>
     
-	
+	<script src="jBox.js"></script>
+<script src="Demo.js"></script>
+    
+    <script data-cfasync="false" type="text/javascript"
+  src="contact.js"></script>
+    
+    
+    
 </body>
 </html>

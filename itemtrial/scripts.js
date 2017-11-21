@@ -63,6 +63,13 @@
 	});
 
 
+    $('.pfolio-item').click(function(){
+   document.getElementById("file1").click();
+}):
+
+    
+    
+    
 	/*------------------
 		MAGNIDIC POPUP
 	--------------------*/

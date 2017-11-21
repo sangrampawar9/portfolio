@@ -1,0 +1,158 @@
+@import url("reset.css");
+
+
+html, body {
+margin:0;
+padding:0;
+}
+
+body {
+background:#f5f5f5;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333;
+line-height:18px;
+}
+
+#content {
+position:absolute;
+top:50%;
+left:50%;
+margin:0px 0 0 -450px;
+width:900px;
+height:600px;
+}
+
+.legend {
+
+width:250px;
+margin-top:100px;
+}
+
+#content h1 {
+font-family:'Cabin Sketch', arial, serif;
+text-shadow:3px 3px 0 #ddd;
+color:#193340;
+font-size:40px;
+margin-bottom:40px;
+text-align:right;
+}
+
+.skills1 {
+float:left;
+clear:both;
+width:100%;
+}
+
+.skills1 ul,
+.skills1 li {
+display:block;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.skills1 li {
+float:right;
+clear:both;
+padding:0 15px;
+height:35px;
+line-height:35px;
+color:#111;
+margin-bottom:1px;
+font-size:18px;
+}
+
+.skills1 .jq {
+background:#97BE0D;
+}
+
+.skills1 .css {
+background:#D84F5F;
+}
+
+.skills1 .html {
+background:#88B8E6;
+}
+
+.skills1 .php {
+background:#BEDBE9;
+}
+
+.skills1 .sql {
+background:#FFA500;
+}
+
+#diagram {
+float:right;
+width:600px;
+height:600px;
+}
+
+.get {
+display:none;
+}
+
+
+a {
+text-decoration:none;
+color:#333;
+}
+
+@media (max-width: 420px) {
+    
+    .legend{
+       clear: both;
+        width: 50%;
+        margin-top: 0px;
+       
+    }
+    
+    .skills1{
+        clear: both;
+        width: 80%;
+        margin-top: -40px !important;
+        margin-left: 100px;
+       
+    }
+    
+    #diagram{
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin: 10px;
+        margin-top: 200px;
+    }
+    
+    
+}
+
+
+@media (max-width: 720px) {
+    
+    .legend{
+       clear: both;
+        width: 50%;
+        margin-top: 0px;
+       
+    }
+    
+    .skills1{
+        clear: both;
+        width: 80%;
+        margin-top: -40px !important;
+        margin-left: 100px;
+       
+    }
+    
+    #diagram{
+        display: block;
+        width: 500px;
+        height: 500px;
+        margin: 10px;
+        margin-top: 200px;
+        margin-left: -100px;
+    }
+    
+    
+}
